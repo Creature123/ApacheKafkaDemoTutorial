@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Dapper" />
+    <None Remove="Confluent.Kafka" />
+    <None Remove="Utils\" />
+    <None Remove="Models\" />
+    <None Remove="Models\DataModels\" />
+    <None Remove="Models\ViewModels\" />
+    <None Remove="LogFilter\" />
+    <None Remove="Microsoft.AspNetCore.Mvc.Core" />
+    <None Remove="Microsoft.AspNetCore.Mvc.Abstractions" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="Confluent.Kafka" Version="1.9.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Utils\" />
+    <Folder Include="Models\" />
+    <Folder Include="Models\DataModels\" />
+    <Folder Include="Models\ViewModels\" />
+    <Folder Include="LogFilter\" />
+  </ItemGroup>
+</Project>

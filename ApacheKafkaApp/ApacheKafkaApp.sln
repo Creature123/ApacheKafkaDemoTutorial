@@ -5,6 +5,10 @@ VisualStudioVersion = 25.0.1703.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApacheKafkaApp", "ApacheKafkaApp.csproj", "{4720713B-DE52-4B87-9FFC-185AE8204343}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApacheKafkaApp.INFRA", "..\ApacheKafkaApp.INFRA\ApacheKafkaApp.INFRA.csproj", "{3EDDFBFF-6973-4005-A771-F1FD3DD4E946}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{B174382C-5A22-491D-93C4-59DE36AACEAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{4720713B-DE52-4B87-9FFC-185AE8204343}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4720713B-DE52-4B87-9FFC-185AE8204343}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4720713B-DE52-4B87-9FFC-185AE8204343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EDDFBFF-6973-4005-A771-F1FD3DD4E946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EDDFBFF-6973-4005-A771-F1FD3DD4E946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EDDFBFF-6973-4005-A771-F1FD3DD4E946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EDDFBFF-6973-4005-A771-F1FD3DD4E946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B174382C-5A22-491D-93C4-59DE36AACEAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B174382C-5A22-491D-93C4-59DE36AACEAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B174382C-5A22-491D-93C4-59DE36AACEAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B174382C-5A22-491D-93C4-59DE36AACEAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

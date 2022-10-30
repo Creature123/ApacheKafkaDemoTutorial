@@ -1,0 +1,90 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/souravdas/Projects/Tutorial/ApacheKafkaTutorial/ApacheKafkaDemoTutorial/ApacheKafkaApp.INFRA/ApacheKafkaApp.INFRA.csproj": {}
+  },
+  "projects": {
+    "/Users/souravdas/Projects/Tutorial/ApacheKafkaTutorial/ApacheKafkaDemoTutorial/ApacheKafkaApp.INFRA/ApacheKafkaApp.INFRA.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/souravdas/Projects/Tutorial/ApacheKafkaTutorial/ApacheKafkaDemoTutorial/ApacheKafkaApp.INFRA/ApacheKafkaApp.INFRA.csproj",
+        "projectName": "ApacheKafkaApp.INFRA",
+        "projectPath": "/Users/souravdas/Projects/Tutorial/ApacheKafkaTutorial/ApacheKafkaDemoTutorial/ApacheKafkaApp.INFRA/ApacheKafkaApp.INFRA.csproj",
+        "packagesPath": "/Users/souravdas/.nuget/packages/",
+        "outputPath": "/Users/souravdas/Projects/Tutorial/ApacheKafkaTutorial/ApacheKafkaDemoTutorial/ApacheKafkaApp.INFRA/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/souravdas/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[1.9.3, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
