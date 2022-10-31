@@ -1,0 +1,10 @@
+/Users/souravdas/Projects/Tutorial/ApacheKafkaTutorial/ApacheKafkaDemoTutorial/ApacheKafkaApp.INFRA/bin/Debug/netcoreapp3.1/ApacheKafkaApp.INFRA.deps.json
+/Users/souravdas/Projects/Tutorial/ApacheKafkaTutorial/ApacheKafkaDemoTutorial/ApacheKafkaApp.INFRA/bin/Debug/netcoreapp3.1/ApacheKafkaApp.INFRA.dll
+/Users/souravdas/Projects/Tutorial/ApacheKafkaTutorial/ApacheKafkaDemoTutorial/ApacheKafkaApp.INFRA/bin/Debug/netcoreapp3.1/ApacheKafkaApp.INFRA.pdb
+/Users/souravdas/Projects/Tutorial/ApacheKafkaTutorial/ApacheKafkaDemoTutorial/ApacheKafkaApp.INFRA/obj/Debug/netcoreapp3.1/ApacheKafkaApp.INFRA.csproj.AssemblyReference.cache
+/Users/souravdas/Projects/Tutorial/ApacheKafkaTutorial/ApacheKafkaDemoTutorial/ApacheKafkaApp.INFRA/obj/Debug/netcoreapp3.1/ApacheKafkaApp.INFRA.GeneratedMSBuildEditorConfig.editorconfig
+/Users/souravdas/Projects/Tutorial/ApacheKafkaTutorial/ApacheKafkaDemoTutorial/ApacheKafkaApp.INFRA/obj/Debug/netcoreapp3.1/ApacheKafkaApp.INFRA.AssemblyInfoInputs.cache
+/Users/souravdas/Projects/Tutorial/ApacheKafkaTutorial/ApacheKafkaDemoTutorial/ApacheKafkaApp.INFRA/obj/Debug/netcoreapp3.1/ApacheKafkaApp.INFRA.AssemblyInfo.cs
+/Users/souravdas/Projects/Tutorial/ApacheKafkaTutorial/ApacheKafkaDemoTutorial/ApacheKafkaApp.INFRA/obj/Debug/netcoreapp3.1/ApacheKafkaApp.INFRA.csproj.CoreCompileInputs.cache
+/Users/souravdas/Projects/Tutorial/ApacheKafkaTutorial/ApacheKafkaDemoTutorial/ApacheKafkaApp.INFRA/obj/Debug/netcoreapp3.1/ApacheKafkaApp.INFRA.dll
+/Users/souravdas/Projects/Tutorial/ApacheKafkaTutorial/ApacheKafkaDemoTutorial/ApacheKafkaApp.INFRA/obj/Debug/netcoreapp3.1/ApacheKafkaApp.INFRA.pdb
