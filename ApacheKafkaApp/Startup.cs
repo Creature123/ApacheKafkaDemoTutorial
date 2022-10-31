@@ -28,17 +28,27 @@ namespace ApacheKafkaApp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddSwaggerGen(
-                c =>
-                {
-                    c.SwaggerDoc("V1", new OpenApiInfo()
-                    {
-                       Title = "User Details APIs",
-                       Version = "v1"
+            //services.AddSwaggerGen(
+            //    c =>
+            //    {
+            //        c.SwaggerDoc("V1", new OpenApiInfo()
+            //        {
+            //           Title = "User Details APIs",
+            //           Version = "v1"
 
-                    });
-                }
-                );
+            //        });
+            //    }
+            //    );
+            services.AddSwaggerGen(c => {
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Version = "v1",
+                    Title = "Test API",
+                    Description = "A simple example for swagger api information"
+                    
+                });
+            });
+            services.AddSwaggerGen();
             services.AddMvc(options => { options.Filters.Add(typeof(LogFilter)); });
         }
 
@@ -48,9 +58,10 @@ namespace ApacheKafkaApp
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger().UseSwaggerUI(c =>
+                app.UseSwagger();
+                app.UseSwaggerUI(c =>
                 {
-                    c.SwaggerEndpoint("Swagger/v1/swagger.json", "User Details API");
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "ApacheKafkaApp");
                 });
             }
 

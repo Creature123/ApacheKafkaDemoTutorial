@@ -14,6 +14,9 @@
     <None Remove="LogFilter\" />
     <None Remove="Microsoft.AspNetCore.Mvc.Core" />
     <None Remove="Microsoft.AspNetCore.Mvc.Abstractions" />
+    <None Remove="Repository\" />
+    <None Remove="Repository\Interfaces\" />
+    <None Remove="Repository\Implementations\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Dapper" Version="2.0.123" />
@@ -27,5 +30,8 @@
     <Folder Include="Models\DataModels\" />
     <Folder Include="Models\ViewModels\" />
     <Folder Include="LogFilter\" />
+    <Folder Include="Repository\" />
+    <Folder Include="Repository\Interfaces\" />
+    <Folder Include="Repository\Implementations\" />
   </ItemGroup>
 </Project>

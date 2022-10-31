@@ -34,10 +34,10 @@ namespace ApacheKafkaApp
                     webBuilder.UseStartup<Startup>();
                     var environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
                     var isDevelopment = environment == Environments.Development;
-                    if(!isDevelopment)
-                    {
+                    //if(isDevelopment)
+                    //{
                         webBuilder.UseKestrel(options => options.AddServerHeader = false);
-                    }
+                    //}
                 });
     }
 }

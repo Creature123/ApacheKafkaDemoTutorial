@@ -16,6 +16,10 @@
     <None Remove="Serilog.AspNetCore" />
     <None Remove="Confluent.Kafka" />
     <None Remove="Swashbuckle.AspNetCore" />
+    <None Remove="MySql.Data" />
+    <None Remove="Dapper" />
+    <None Remove="Services\" />
+    <None Remove="Repositories\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
@@ -26,10 +30,16 @@
     <PackageReference Include="Serilog.AspNetCore" Version="6.0.1" />
     <PackageReference Include="Confluent.Kafka" Version="1.9.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="MySql.Data" Version="8.0.31" />
+    <PackageReference Include="Dapper" Version="2.0.123" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ApacheKafkaApp.INFRA\ApacheKafkaApp.INFRA.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="Repositories\" />
   </ItemGroup>
 </Project>
