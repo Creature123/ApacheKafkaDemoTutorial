@@ -33,7 +33,7 @@ namespace ApacheKafkaApp
                 {
                     c.SwaggerDoc("V1", new OpenApiInfo()
                     {
-                       Title = "User Details API",
+                       Title = "User Details APIs",
                        Version = "v1"
 
                     });
